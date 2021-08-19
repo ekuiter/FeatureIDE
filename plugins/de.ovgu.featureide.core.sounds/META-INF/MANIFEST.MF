@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FeatureIDE Plug-In for Sound Composition
+Bundle-SymbolicName: de.ovgu.featureide.core.sounds;singleton:=true
+Bundle-Version: 3.7.2.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: de.ovgu.featureide.core,
+ de.ovgu.featureide.fm.core,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Elias Kuiter
+Bundle-Activator: de.ovgu.featureide.core.sounds.activator.SoundCorePlugin
+Export-Package: de.ovgu.featureide.core.sounds,
+ de.ovgu.featureide.core.sounds.activator
+Automatic-Module-Name: de.ovgu.featureide.core.sounds
+Bundle-ClassPath: .

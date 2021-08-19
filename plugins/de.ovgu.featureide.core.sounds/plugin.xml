@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="de.ovgu.featureide.core.composers">
+      <composer
+            class="de.ovgu.featureide.core.sounds.SoundComposer"
+            description="Sound mixing"
+            id="de.ovgu.featureide.core.sounds.composer"
+            name="Sounds Composer"
+            nature="de.ovgu.featureide.core.sounds.composer">
+      </composer>
+   </extension>
+
+</plugin>
